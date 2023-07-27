@@ -37,14 +37,14 @@ def create():
    #     return {"payload":leer}
     #else:
      #   return "Usuario No Existe"
-    
-#@app.route("/init", methods=["GET"])
-#def init():
- #   leer=request.args.get("content")
- #   if leer=="alfa":
- #       return {"payload":leer}
- #   else:
-  #      return "Usuario No Existe"'''
+
+@app.route("/init", methods=["GET"])
+def init():
+    leer=request.args.get("content")
+    if leer=="alfa":
+        return {"payload":leer}
+    else:
+        return "Usuario No Existe"
 
 if __name__ == "main":
     app.run(debug=True)
