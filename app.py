@@ -6,7 +6,7 @@ app = Flask(__name__)
 def main():
     return {"payload":"welcome to my project"}
 
-'''@app.route("/read")
+@app.route("/read")
 def read():
     leer=request.args.get("content")
     if leer=="foo":
@@ -22,29 +22,29 @@ def create():
     else:
         return "Usuario No Existe"
     
-@app.route("/delete", methods=["DELETE"])
-def delete():
-    leer=request.args.get("content")
-    if leer=="qut":
-        return {"payload":leer}
-    else:
-        return "Usuario No Existe"
+#@app.route("/delete", methods=["DELETE"])
+#def delete():
+ #   leer=request.args.get("content")
+  #  if leer=="qut":
+   #     return {"payload":leer}
+   # else:
+    #    return "Usuario No Existe"
 
-@app.route("/put", methods=["PUT"])
-def put():
-    leer=request.args.get("content")
-    if leer=="echo":
-        return {"payload":leer}
-    else:
-        return "Usuario No Existe"
+#@app.route("/put", methods=["PUT"])
+#def put():
+ #   leer=request.args.get("content")
+  #  if leer=="echo":
+   #     return {"payload":leer}
+    #else:
+     #   return "Usuario No Existe"
     
-@app.route("/init", methods=["GET"])
-def init():
-    leer=request.args.get("content")
-    if leer=="alfa":
-        return {"payload":leer}
-    else:
-        return "Usuario No Existe"'''
+#@app.route("/init", methods=["GET"])
+#def init():
+ #   leer=request.args.get("content")
+ #   if leer=="alfa":
+ #       return {"payload":leer}
+ #   else:
+  #      return "Usuario No Existe"'''
 
 if __name__ == "main":
     app.run(debug=True)
