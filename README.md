@@ -1,4 +1,4 @@
-# ALFA 
+# Alfa
 - delete successfully
 - put successfully
 
@@ -6,4 +6,4 @@
 - read successfully
 - create successfully
 
-- Endpoints work all right.
+/ Endpoints work all right.
