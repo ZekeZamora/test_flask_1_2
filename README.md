@@ -1,1 +1,9 @@
-# test_flask_1_2
+# ALFA 
+- delete successfully
+- put successfully
+
+# Charlie
+- read successfully
+- create successfully
+
+- Endpoints work all right.
