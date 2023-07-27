@@ -20,7 +20,7 @@ def create():
     if leer=="bar":
         return {"payload":leer}
     else:
-        return "Usuario No Existe"
+        return "Usuario No Existe"'''
     
 @app.route("/delete", methods=["DELETE"])
 def delete():
@@ -44,7 +44,7 @@ def init():
     if leer=="alfa":
         return {"payload":leer}
     else:
-        return "Usuario No Existe"'''
+        return "Usuario No Existe"
 
 if __name__ == "main":
     app.run(debug=True)
